@@ -1,0 +1,101 @@
+body {
+    background-color: #000000; /* Black color */
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003300; /* Darker green color */
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+    background-color: #003300; /* Soft-dark green color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* White color for links in the navigation bar */
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px; /* Add padding to the links */
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover for links in the navigation bar */
+}
+
+section {
+    padding: 50px;
+}
+
+a {
+    color: #2ecc71; /* Soft-dark green color for links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+.bottom-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    background-color: #000000; /* Soft-dark green color */
+    padding: 10px;
+    text-align: right;
+    font-size: 9px;
+}
+
+.bottom-text p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.bottom-text {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    background-color: #000000; /* Soft-dark green color */
+    padding: 0px;
+    text-align: right;
+    font-size: 9px;
+}
+
+.bottom-text-links {
+    display: flex;
+}
+
+#signupButton {
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 20px;
+  font-size: 24px;
+  padding: 15px 30px;
+  color: #ffffff;
+  background-color: #003300;
+  margin-left: 250px;
+}
+
+#main_image {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    position: relative;
+}
