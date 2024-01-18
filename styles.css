@@ -11,7 +11,7 @@ header {
     padding: 4px;
     text-align: center;
     height: 80px;
-    position: relative;
+    position: fixed;
 }
 
 #logo {
@@ -100,7 +100,6 @@ a:hover {
   width: 100%;
   height: calc(100vh - 80px);
   position: fixed;
-  top: 80px;
 }
 
 #tournament_image {
