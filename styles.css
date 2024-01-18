@@ -99,3 +99,7 @@ a:hover {
     height: auto; /* Maintain the aspect ratio */
     position: relative;
 }
+
+#tournament_image {
+    width: 90%;
+}
