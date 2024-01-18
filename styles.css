@@ -10,8 +10,8 @@ header {
     background-color: #003300; /* Darker green color */
     padding: 4px;
     text-align: center;
-    height: 80px;
-    position: fixed;
+    height: 60px;
+    position: relative;
 }
 
 #logo {
@@ -98,8 +98,9 @@ a:hover {
 
 #main_image {
   width: 100%;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px);
   position: fixed;
+  top: 60px
 }
 
 #tournament_image {
