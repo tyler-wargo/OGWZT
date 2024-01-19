@@ -98,6 +98,10 @@ a:hover {
 
 #main_image {
     width: 100%;
+    position: relative;
+    top: 20px;
+    max-width: 1200px;
+    height: auto;
 }
 
 #tournament_image {
