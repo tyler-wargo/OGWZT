@@ -1,109 +1,82 @@
 body {
-    background-color: #000000; /* Black color */
-    color: #ffffff;
-    font-family: Roboto, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #1e1e1e; /* Darker gray background */
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif; /* Change font */
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #003300; /* Darker green color */
-    padding: 0px;
-    text-align: center;
-    position: relative;
+  background-color: #28a745; /* Green header */
+  padding: 20px 0;
+  text-align: center;
 }
 
 #logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50px;
-    height: auto;
-    z-index: 2;
+  float: left; /* Float logo to the left */
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
 }
 
 nav {
-    background-color: #003300; /* Soft-dark green color */
-    padding: 10px;
-    text-align: center;
+  background-color: #21963f; /* Slightly darker green for navigation */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 nav a {
-    color: #ffffff; /* White color for links in the navigation bar */
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px; /* Add padding to the links */
-    display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px; /* Add subtle border-radius */
+  transition: background-color 0.2s ease-in-out; /* Add hover transition */
 }
 
 nav a:hover {
-    text-decoration: underline; /* Underline on hover for links in the navigation bar */
+  background-color: #1e8439; /* Darker green on hover */
 }
 
-section {
-    padding: 50px;
+.main-content {
+  padding: 50px 0;
+  text-align: center;
 }
 
-a {
-    color: #2ecc71; /* Soft-dark green color for links */
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-a:hover {
-    text-decoration: underline; /* Underline on hover for links */
-}
-
-.bottom-text {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 95%;
-    background-color: #000000; /* Soft-dark green color */
-    padding: 10px;
-    text-align: right;
-    font-size: 9px;
-}
-
-.bottom-text p {
-    color: #ffffff;
-    margin: 0;
-}
-
-.bottom-text {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 95%;
-    background-color: #000000; /* Soft-dark green color */
-    padding: 0px;
-    text-align: right;
-    font-size: 9px;
-}
-
-.bottom-text-links {
-    display: flex;
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 #signupButton {
-  margin-bottom: 10px;
-  position: relative;
-  bottom: 20px;
-  font-size: 24px;
-  padding: 10px 20px;
+  background-color: #28a745;
   color: #ffffff;
-  background-color: #003300;
-  margin-left: 250px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#signupButton:hover {
+  background-color: #1e8439;
 }
 
 #main_image {
-    width: 100%;
-    position: relative;
-    top: 20px;
-    max-width: 1200px;
-}
-
-#tournament_image {
-    max-width: 100%;
-    height: auto;
-}
+  width: 100%;
