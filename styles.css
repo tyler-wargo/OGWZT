@@ -83,3 +83,19 @@ nav a:hover {
 
 #main_image {
   width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+#footer-links {
+  /* Adjust styling for the links if needed */
+}
+
+p {
+  margin: 0; /* Remove default margin */
+}
