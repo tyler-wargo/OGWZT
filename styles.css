@@ -83,6 +83,7 @@ nav a:hover {
 
 #main_image {
   width: 100%;
+  padding: 5px;
 }
 
 footer {
