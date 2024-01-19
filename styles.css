@@ -32,7 +32,7 @@ nav a {
     color: #ffffff; /* White color for links in the navigation bar */
     text-decoration: none;
     margin: 0 10px;
-    padding: 10px; /* Add padding to the links */
+    padding: 5px; /* Add padding to the links */
     display: inline-block;
 }
 
