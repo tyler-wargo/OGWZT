@@ -8,9 +8,8 @@ body {
 
 header {
     background-color: #003300; /* Darker green color */
-    padding: 0px;
+    padding: 0;
     text-align: center;
-    height: 80px;
     position: relative;
 }
 
@@ -86,7 +85,7 @@ a:hover {
 }
 
 #signupButton {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   position: relative;
   bottom: 20px;
   font-size: 24px;
