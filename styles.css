@@ -97,10 +97,8 @@ a:hover {
 }
 
 #main_image {
-  width: 100%;
-  height: calc(100vh - 80px);
-  position: absolute;
-  top: 80px
+    width: 100%;
+    position: absolute;
 }
 
 #tournament_image {
