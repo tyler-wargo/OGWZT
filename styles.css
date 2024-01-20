@@ -29,8 +29,12 @@ h1 {
   padding: 0px;
 }
 
+section {
+  padding: 5px;
+}
+
 h2 {
-  padding: 0px;
+  padding: 5px;
 }
 
 nav {
