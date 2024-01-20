@@ -113,7 +113,6 @@ nav a:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  align-self: flex-center;
 }
 
 #pastScoreButton {
@@ -128,7 +127,6 @@ nav a:hover {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-  align-self: flex-center;
 }
 
 #signupButton:hover {
