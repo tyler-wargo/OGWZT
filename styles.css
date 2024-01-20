@@ -81,7 +81,7 @@ nav a:hover {
   background-color: #D5B725;
   color: #ffffff;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -101,7 +101,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0px;
+  padding: 5px;
   font-size: 10px;
 }
 
