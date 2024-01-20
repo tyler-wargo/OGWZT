@@ -38,7 +38,8 @@ section {
 
 h2 {
   font-size: 30px;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 0px;
   font-weight: bold;
   color: #FFFFFF; /* Off-white text color */
   padding: 0px;
@@ -98,7 +99,7 @@ nav a:hover {
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   display: block; /* Ensure the button takes the full width */
 }
 
