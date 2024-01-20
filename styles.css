@@ -15,7 +15,7 @@ header {
 }
 
 #logo {
-  width: 50px;
+  width: 75px;
   height: auto;
   margin-right: 10px;
   padding: 20px;
@@ -26,6 +26,7 @@ h1 {
   margin: 0;
   font-weight: bold;
   color: #FFFFFF; /* Off-white text color */
+  padding: 10px;
 }
 
 h2 {
