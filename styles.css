@@ -101,6 +101,36 @@ nav a:hover {
   display: block; /* Ensure the button takes the full width */
 }
 
+#reportScoreButton {
+  background-color: #D5B725;
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  align-self: flex-center;
+}
+
+#pastScoreButton {
+  background-color: #D5B725;
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  align-self: flex-center;
+}
+
 #signupButton:hover {
   background-color: #FFF59D
 }
