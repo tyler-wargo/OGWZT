@@ -68,11 +68,10 @@ nav a {
   font-weight: bold;
   padding: 5px 10px;
   border-radius: 5px; /* Add subtle border-radius */
-  transition: background-color 0.2s ease-in-out; /* Add hover transition */
 }
 
 nav a:hover {
-  background-color: #D5B725; /* Darker gold on hover */
+  background-color: #FF0000; /* red on hover */
 }
 
 .main-content {
