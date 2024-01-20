@@ -29,20 +29,20 @@ h1 {
   padding: 10px;
 }
 
+h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #FFFFFF; /* Off-white text color */
+  padding: 0px;
+}
+
 section {
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h2 {
-  font-size: 30px;
-  margin-top: 5px;
-  margin-bottom: 0px;
-  font-weight: bold;
-  color: #FFFFFF; /* Off-white text color */
-  padding: 0px;
 }
 
 nav {
