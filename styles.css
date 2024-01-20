@@ -18,7 +18,7 @@ header {
   width: 75px;
   height: auto;
   margin-right: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
   margin: 0;
   font-weight: bold;
   color: #FFFFFF; /* Off-white text color */
-  padding: 10px;
+  padding: 0px;
 }
 
 h2 {
@@ -63,13 +63,14 @@ nav a:hover {
 }
 
 .main-content {
-  padding: 20px 0;
+  padding: 0px 0;
   text-align: center;
 }
 
 .main-content h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  padding: 0px;
 }
 
 #signupButton {
@@ -89,14 +90,14 @@ nav a:hover {
 
 #main_image {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 10px;
+  padding: 0px;
   font-size: 10px;
 }
 
