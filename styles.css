@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to bottom, #FFDA39, #FFDA39); /* Gradient background */
+  background: linear-gradient(to bottom, #D5B725, #D5B725); /* Gradient background */
   padding: 5px 0;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
@@ -33,7 +33,7 @@ h2 {
 }
 
 nav {
-  background-color: #FFDA39; /* Slightly darker gold for navigation */
+  background-color: #D5B725; /* Slightly darker gold for navigation */
   padding: 10px 0;
   text-align: center;
 }
@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #FFC500; /* Darker gold on hover */
+  background-color: #D5B725; /* Darker gold on hover */
 }
 
 .main-content {
@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 #signupButton {
-  background-color: #FFC500;
+  background-color: #D5B725;
   color: #ffffff;
   font-size: 18px;
   padding: 10px 20px;
