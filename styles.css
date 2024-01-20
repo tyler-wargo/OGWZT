@@ -85,6 +85,23 @@ nav a:hover {
   padding: 0px;
 }
 
+#discordButton {
+  background-color: #6B79AA;
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block; /* Ensure the button takes the full width */
+}
+
 #signupButton {
   background-color: #D5B725;
   color: #ffffff;
