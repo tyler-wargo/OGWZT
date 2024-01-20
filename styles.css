@@ -37,7 +37,11 @@ section {
 }
 
 h2 {
-  padding: 5px;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: #FFFFFF; /* Off-white text color */
+  padding: 0px;
 }
 
 nav {
@@ -60,6 +64,7 @@ nav li {
 nav a {
   color: #ffffff;
   text-decoration: none;
+  font-weight: bold;
   padding: 5px 10px;
   border-radius: 5px; /* Add subtle border-radius */
   transition: background-color 0.2s ease-in-out; /* Add hover transition */
