@@ -28,6 +28,10 @@ h1 {
   color: #FFFFFF; /* Off-white text color */
 }
 
+h2 {
+  padding: 5px;
+}
+
 nav {
   background-color: #FFDA39; /* Slightly darker gold for navigation */
   padding: 10px 0;
