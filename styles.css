@@ -8,7 +8,7 @@ body {
 
 header {
   background: linear-gradient(to bottom, #D5B725, #D5B725); /* Gradient background */
-  padding: 5px 0;
+  padding: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
   position: relative;
