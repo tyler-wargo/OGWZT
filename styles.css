@@ -1,162 +1,185 @@
 body {
-  background-color: #000000; 
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif; /* Change font */
-  margin: 0;
-  padding: 0;
+ background-color: #000000; 
+ color: #ffffff;
+ font-family: 'Montserrat', sans-serif; /* Change font */
+ margin: 0;
+ padding: 0;
 }
 
 header {
-  background: linear-gradient(to bottom, #D5B725, #D5B725); /* Gradient background */
-  padding: 15px;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
-  position: relative;
+ background: linear-gradient(to bottom, #D5B725, #D5B725); /* Gradient background */
+ padding: 15px;
+ text-align: center;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Drop shadow */
+ position: relative;
 }
 
 #logo {
-  width: 75px;
-  height: auto;
-  margin-right: 10px;
-  padding: 10px;
+ width: 75px;
+ height: auto;
+ margin-right: 10px;
+ padding: 10px;
 }
 
 h1 {
-  font-size: 30px;
-  margin: 0;
-  font-weight: bold;
-  color: #FFFFFF; /* Off-white text color */
-  padding: 10px;
+ font-size: 30px;
+ margin: 0;
+ font-weight: bold;
+ color: #FFFFFF; /* Off-white text color */
+ padding: 10px;
 }
 
 h2 {
-  font-size: 20px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-weight: bold;
-  color: #FFFFFF; /* Off-white text color */
-  padding: 0px;
+ font-size: 20px;
+ margin-top: 10px;
+ margin-bottom: 0px;
+ font-weight: bold;
+ color: #FFFFFF; /* Off-white text color */
+ padding: 0px;
 }
 
 section {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 nav {
-  background-color: #D5B725; /* Slightly darker gold for navigation */
-  padding: 10px 0;
-  text-align: center;
+ background-color: #D5B725; /* Slightly darker gold for navigation */
+ padding: 10px 0;
+ text-align: center;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+ list-style: none;
+ margin: 0;
+ padding: 0;
 }
 
 nav li {
-  display: inline-block;
-  margin: 0 10px;
+ display: inline-block;
+ margin: 0 10px;
 }
 
 nav a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px; /* Add subtle border-radius */
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: bold;
+ padding: 5px 10px;
+ border-radius: 5px; /* Add subtle border-radius */
 }
 
 nav a:hover {
-  background-color: #FF0000; /* red on hover */
+ background-color: #FF0000; /* red on hover */
 }
 
 .main-content {
-  padding: 0px 0;
-  text-align: center;
+ padding: 0px 0;
+ text-align: center;
 }
 
 .main-content h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  padding: 0px;
+ font-size: 24px;
+ margin-bottom: 20px;
+ padding: 0px;
 }
 
 #discordButton {
-  background-color: #6B79AA;
-  color: #ffffff;
-  font-size: 18px;
-  padding-top: 15px;
-  padding-right: 10px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  display: block; /* Ensure the button takes the full width */
+ background-color: #6B79AA;
+ color: #ffffff;
+ font-size: 18px;
+ padding-top: 15px;
+ padding-right: 10px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out;
+ margin-top: 10px;
+ margin-bottom: 5px;
+ display: block; /* Ensure the button takes the full width */
 }
 
 #signupButton {
-  background-color: #FF0000;
-  color: #ffffff;
-  font-size: 18px;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-  margin-top: 10px;
-  margin-bottom: 10px;
+ background-color: #FF0000;
+ color: #ffffff;
+ font-size: 18px;
+ padding-top: 15px;
+ padding-right: 20px;
+ padding-bottom: 15px;
+ padding-left: 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ display: block; /* Ensure the button takes the full width */
+}
+
+#reportScoreButton {
+ background-color: #FF0000;
+ color: #ffffff;
+ font-size: 18px;
+ padding-top: 15px;
+ padding-right: 10px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+#pastScoreButton {
+ background-color: #D5B725;
+ color: #ffffff;
+ font-size: 18px;
+ padding-top: 15px;
+ padding-right: 10px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.2s ease-in-out;
+ margin-top: 10px;
+ margin-bottom: 10px;
 }
 
 #signupButton:hover {
-  background-color: #FF0000
+ background-color: #FF0000
 }
 
 #main_image {
-  width: 100%;
-  padding: 10px;
+ width: 100%;
+ padding: 10px;
 }
 
 #tournamentimage {
-  width: 50%; /* Adjust the percentage as needed */
-  max-width: 450px; /* Set a maximum width to maintain resolution */
-  height: auto; /* Maintain the aspect ratio */
-  padding: 10px;
+ width: 50%; /* Adjust the percentage as needed */
+ max-width: 450px; /* Set a maximum width to maintain resolution */
+ height: auto; /* Maintain the aspect ratio */
+ padding: 10px;
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  font-size: 12px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ font-size: 12px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+#footer-links {
+ /* Adjust styling for the links if needed */
 }
 
 p {
-  margin: 0; /* Remove default margin */
-}
-
-.signup-container {
-  display: flex;
-  margin-bottom: 20px; /* Optional: Add space between pairs */
-}
-
-#signupButton, #tournamentimage {
-  flex: 1; /* Make buttons and images equal width */
-  margin-right: 10px; /* Add space between items */
-}
-
-#tournamentimage:last-child { /* Optional: Remove margin for the last image */
-  margin-right: 0;
+ margin: 0; /* Remove default margin */
 }
