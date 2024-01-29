@@ -45,6 +45,11 @@ section {
  align-items: center;
 }
 
+.tournament-section {
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
  background-color: #D5B725; /* Slightly darker gold for navigation */
  padding: 10px 0;
