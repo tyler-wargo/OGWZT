@@ -162,7 +162,7 @@ nav a:hover {
 
 .tournament-container {
   display: flex;
-  flex-direction: row; /* Change from column to row */
+  flex-direction: column; /* Change from column to row */
   align-items: center;
   margin-bottom: 20px; /* Adjust the margin as needed */
 }
@@ -179,7 +179,7 @@ footer {
  justify-content: space-between;
  align-items: flex-end;
  font-size: 12px;
- padding-top: 5px;
+ padding-top: 5px;```
  padding-bottom: 5px;
 }
 
