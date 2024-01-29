@@ -165,13 +165,6 @@ nav a:hover {
  padding: 10px;
 }
 
-.tournament-container {
-  display: flex;
-  flex-direction: column; /* Change from column to row */
-  align-items: center;
-  margin-bottom: 20px; /* Adjust the margin as needed */
-}
-
 #tournamentimage {
  width: 50%; /* Adjust the percentage as needed */
  max-width: 450px; /* Set a maximum width to maintain resolution */
