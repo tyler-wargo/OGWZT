@@ -45,7 +45,7 @@ section {
  align-items: center;
 }
 
-#tournamentimgdiv {
+.tournamentimgdiv {
  display: flex;
  justify-content: space-between;
  align-items: center;
