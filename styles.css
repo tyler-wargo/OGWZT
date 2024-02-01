@@ -45,9 +45,9 @@ section {
  align-items: center;
 }
 
-#tournamentsection {
+#tournamentimgdiv {
 display: grid;
-grid-template-row: 1fr;
+grid-template-column: 2fr;
 }
 
 nav {
