@@ -171,7 +171,8 @@ nav a:hover {
  transition: background-color 0.2s ease-in-out;
  margin-top: 10px;
  margin-bottom: 10px;
- display: block; /* Ensure the button takes the full width */
+ display: flex; /* Ensure the button takes the full width */
+ align-items: center
 }
 
 #signupButton:hover {
