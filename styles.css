@@ -45,6 +45,11 @@ section {
  align-items: center;
 }
 
+#tournamentsection {
+display: grid;
+grid-template-column: 2fr;
+}
+
 nav {
  background-color: #D5B725; /* Slightly darker gold for navigation */
  padding: 10px 0;
