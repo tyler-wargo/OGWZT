@@ -47,7 +47,7 @@ section {
 
 #tournamentsection {
 display: grid;
-grid-template-column: 2fr;
+grid-template-row: 1fr;
 }
 
 nav {
