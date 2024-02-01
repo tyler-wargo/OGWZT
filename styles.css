@@ -4,11 +4,15 @@ body {
  font-family: 'Montserrat', sans-serif; /* Change font */
  margin: 0;
  padding: 0;
+ display: flex;
+ flex-direction: column;
 }
 
-.tournamentbody {
- display: grid;
- grid-template-rows: 2fr;
+.tournamentimgdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Add some margin between the sections */
 }
 
 header {
