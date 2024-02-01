@@ -7,8 +7,8 @@ body {
 }
 
 .tournamentbody {
- display: flex;
- flex-direction: column;
+ display: grid;
+ grid-template-rows: 2fr;
 }
 
 header {
