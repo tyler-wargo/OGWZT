@@ -8,9 +8,7 @@ body {
 
 .tournamentimgdiv {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px; /* Add some margin between the sections */
+  flex-direction: row;
 }
 
 header {
