@@ -13,6 +13,11 @@ align-items: center;
 margin-bottom: 20px;
 }
 
+.tournamentbuttonsection {
+display: flex;
+flex-direction: row;
+}
+
 #tournamentsignupButton1,
 #tournamentsignupButton2 {
   background-color: #FF0000;
