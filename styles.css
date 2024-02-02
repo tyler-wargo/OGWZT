@@ -6,6 +6,13 @@ body {
  padding: 0;
 }
 
+.tournamentimgdiv {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
 header {
  background: linear-gradient(to bottom, #D5B725, #D5B725); /* Gradient background */
  padding: 15px;
