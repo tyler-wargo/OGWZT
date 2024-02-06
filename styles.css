@@ -6,6 +6,13 @@ body {
  padding: 0;
 }
 
+.tournamentimgdiv {
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 20px;
+}
+
 .tournamentbuttonsection {
 display: flex;
 flex-direction: row;
