@@ -6,13 +6,6 @@ body {
  padding: 0;
 }
 
-.tournamentimgdiv {
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-bottom: 20px;
-}
-
 .tournamentbuttonsection {
 display: flex;
 flex-direction: row;
@@ -190,8 +183,8 @@ nav a:hover {
 }
 
 #tournamentimage {
- width: 45%; /* Adjust the percentage as needed */
- max-width: 325px; /* Set a maximum width to maintain resolution */
+ width: 50%; /* Adjust the percentage as needed */
+ max-width: 450px; /* Set a maximum width to maintain resolution */
  height: auto; /* Maintain the aspect ratio */
  padding: 10px;
 }
