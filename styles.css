@@ -186,7 +186,7 @@ nav a:hover {
 }
 
 #tournamentimage {
- max-width: 350px; /* Set a maximum width to maintain resolution */
+ max-width: 250px; /* Set a maximum width to maintain resolution */
  height: auto; /* Maintain the aspect ratio */
  padding: 10px;
 }
